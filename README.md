@@ -1,6 +1,6 @@
 # ARES-autonomous-research-and-engineering-superintelligence
 
-Welcome to **ARES** (Autonomous Research and Engineering Superintelligence), an AI-powered chatbot designed to provide witty, tech-focused responses. Built with a transformer model (~10.8M parameters), ARES is trained on ~10,000 tech-filtered samples and leverages conversation history for context-aware interactions. This project is optimized for Google Colab's T4 GPU and is ideal for exploring AI, robotics, and engineering topics.
+Welcome to **ARES** (Autonomous Research and Engineering Superintelligence), an AI-powered chatbot designed to deliver witty, tech-focused responses. Built with a transformer model (~10.8M parameters), ARES is trained on ~10,000 tech-filtered samples and leverages conversation history for context-aware interactions. This project is optimized for Google Colab's T4 GPU and is ideal for exploring AI, robotics, and engineering topics.
 
 ## Overview
 - **Model**: Transformer decoder with 4 layers, 8 heads, and a 256-dimensional embedding.
@@ -10,12 +10,11 @@ Welcome to **ARES** (Autonomous Research and Engineering Superintelligence), an 
 
 ## Prerequisites
 - **Python 3.11+**
-- Required libraries: `datasets`, `torch`, `feedparser`, `requests`, `beautifulsoup4`
 - Google Colab account with T4 GPU runtime
 
-## Setup
-### 1. Clone the Repository
-In a Google Colab notebook:
-```bash
-!git clone https://github.com/yourusername/ARES-autonomous-research-and-engineering-superintelligence.git
-%cd ARES-autonomous-research-and-engineering-superintelligence
+## Installation
+1. **Clone the Repository**:
+   In a Google Colab notebook:
+   ```bash
+   !git clone https://github.com/yourusername/ARES-autonomous-research-and-engineering-superintelligence.git
+   %cd ARES-autonomous-research-and-engineering-superintelligence
