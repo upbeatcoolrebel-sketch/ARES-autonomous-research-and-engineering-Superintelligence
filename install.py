@@ -3,6 +3,7 @@ import sys
 import subprocess
 import json
 from typing import Dict, Optional
+import torch  # Added import here
 
 # Default configuration
 DEFAULT_CONFIG = {
